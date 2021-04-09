@@ -1,0 +1,6 @@
+name: Event Registrations
+core_version_requirement: ^9
+type: module
+dependencies:
+  - block
+  - taxonomy_machine_name

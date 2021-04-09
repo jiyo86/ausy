@@ -1,0 +1,18 @@
+uuid: 8f07350d-97e9-4813-a418-3d90c8ed0c1a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Registration
+type: registration
+description: 'Hold Registration details'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

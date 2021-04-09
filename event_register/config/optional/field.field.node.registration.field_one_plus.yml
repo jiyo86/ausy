@@ -1,0 +1,21 @@
+uuid: 09517a27-e470-48df-87b6-b9b274dd86d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_one_plus
+    - node.type.registration
+  module:
+    - options
+id: node.registration.field_one_plus
+field_name: field_one_plus
+entity_type: node
+bundle: registration
+label: 'One Plus'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

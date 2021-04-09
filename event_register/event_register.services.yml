@@ -1,0 +1,5 @@
+services:
+  department:
+    class: Drupal\event_register\ParamConverter\DepartmentConverter
+    tags:
+      - { name: paramconverter }
